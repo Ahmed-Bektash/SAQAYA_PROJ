@@ -1,0 +1,31 @@
+{
+  "name": "saqaya",
+  "version": "1.0.0",
+  "description": "This repo is to contain the SAQAYA take home assignment",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ahmed-Bektash/SAQAYA_PROJ.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ahmed-Bektash/SAQAYA_PROJ/issues"
+  },
+  "homepage": "https://github.com/Ahmed-Bektash/SAQAYA_PROJ#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "csv": "^6.3.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "nodemon": "^3.0.1"
+  }
+}
